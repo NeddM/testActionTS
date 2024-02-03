@@ -1,6 +1,5 @@
-import { getInput } from '@actions/core';
+import * as core from '@actions/core'
 
-const myname = getInput("name");
+const myname = core.getInput("myname");
 
-// console.log(`Hello ${myname}`);
 console.log("hola " + myname);
