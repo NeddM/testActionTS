@@ -1,1 +1,3 @@
-console.log("Hola Mundo");
+import * as core from "@actions/core";
+
+console.log(`Hola ${core.getInput(name)}`);
