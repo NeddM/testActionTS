@@ -1,0 +1,12 @@
+name: "TypeScript Custom Action"
+description: "This is a Custom Action made on TypeScript"
+
+inputs:
+  name:
+    description: "Your name"
+    required: true
+    default: "Nedd"
+
+runs:
+  using: node20
+  main: dist/index.js
