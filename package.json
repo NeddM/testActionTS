@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc && ncc build lib/index.js"
+    "build": "tsc && ncc build dist/index.js"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
   "dependencies": {
     "@actions/core": "^1.10.1",
     "@vercel/ncc": "^0.38.1",
+    "pandas": "^0.0.3",
     "tsx": "^4.7.0"
   }
 }
