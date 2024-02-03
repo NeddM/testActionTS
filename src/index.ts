@@ -1,4 +1,6 @@
 import { getInput } from '@actions/core';
 
-console.log(`Hello ${getInput("myname")}`);
-console.log("hola");
+const myname = getInput("name");
+
+// console.log(`Hello ${myname}`);
+console.log("hola " + myname);
