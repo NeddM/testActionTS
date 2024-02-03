@@ -2,7 +2,7 @@ name: "TypeScript Custom Action"
 description: "This is a Custom Action made on TypeScript"
 
 inputs:
-  name:
+  myname:
     description: "Your name"
     required: true
     default: "Nedd"
