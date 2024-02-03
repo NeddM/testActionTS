@@ -2,7 +2,9 @@ name: Testing TypeScript Custom Action
 
 on:
   workflow_dispatch:
-    
+  push:
+    branches:
+      - main
 
 jobs:
   test:
@@ -10,3 +12,5 @@ jobs:
     steps:
       - name: Testing TS Action
         uses: NeddM/testActionTS@main
+        with:
+          myname: "Nedd Chairi"
