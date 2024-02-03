@@ -1,4 +1,3 @@
-import * as core from '@actions/core';
+import { getInput } from '@actions/core';
 
-console.log(`Hola ${core.getInput(myname)}`);
-console.log("Hola " + core.getInput(myname));
+console.log(`Hello ${getInput(myname)}`)
