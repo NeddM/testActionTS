@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Testing TS Action
-        run: NeddM/testActionTS@main
+        uses: NeddM/testActionTS@main
