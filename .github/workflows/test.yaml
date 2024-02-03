@@ -1,5 +1,4 @@
-
-
+name: Testing TypeScript Custom Action
 
 on:
   workflow_dispatch:
