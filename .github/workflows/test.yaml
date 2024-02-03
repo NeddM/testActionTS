@@ -1,0 +1,13 @@
+
+
+
+on:
+  workflow_dispatch:
+    
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Testing TS Action
+        run: NeddM/testActionTS@main
